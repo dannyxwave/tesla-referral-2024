@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <title>xCode.no</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div>
+        <h1>xCode</h1>
+        <h2>Projects by <span>Dan Isak Weisser</span></h2>
+      </div>
+      <div class="linksContainer">
+        <a id="car-loan" href="https://bil.xcode.no/" target="_blank" rel="noopener">
+          <img src="img/car-loan.png" height="223px" width="200px" class="scale-in-center" alt="Car Loan Calculator" />
+          <div>
+            Car<br />Loan<br />Calculator
+          </div>
+        </a>
+        <a id="browser-info" href="https://ip.xcode.no/" target="_blank" rel="noopener">
+          <img src="img/info.png" height="410" width="364px" class="scale-in-center" alt="Browser Info" />
+          <div>
+            <p>Check</p>
+            <ul>
+              <li>OS</li>
+              <li>IP-address</li>
+              <li>Screen size</li>
+              <li>Country origin</li>
+              <li>Browser version</li>
+            </span>
+          </div>
+        </a>
+        <a id="url-shortener" href="https://url.xcode.no/" target="_blank" rel="noopener">
+          <img src="img/url.png" height="215px" width="290px" class="scale-in-center"
+            alt="Url Shortener" />
+          <div>
+            Shorten URL's
+          </div>
+        </a>
+        <a id="map-converter" href="https://maps.xcode.no/" target="_blank" rel="noopener">
+          <img src="img/map.png" height="192px" width="371px" class="scale-in-center" alt="Apple to Google Maps" />
+          <div>
+            <span>Open Apple<br />Maps link<br />in Google<br />Maps</span>
+          </div>
+        </a>
+        <a id="go-upload" href="https://go.xcode.no/" target="_blank" rel="noopener">
+          <div><span>Upload<br/>files</span></div>
+          <img src="img/upload.png" height="241px" width="288px" class="scale-in-center" alt="Go | Upload" />
+        </a>
+        <a id="avo-do" href="http://todo.xcode.no/" target="_blank" rel="noopener">
+          <img src="img/todo.png" height="193px" width="212px" class="scale-in-center" alt="AvoDo | Todo" />
+          <div>TODO APP</div>
+        </a>
+        <a id="sukkersjekk" href="https://sukkersjekk.xcode.no/" target="_blank" rel="noopener">
+          <div><p>Sukkersjekk</p><span>Calculate sugar cubes in food</span></div>
+          <img src="img/hand.png" height="286px" width="347px" class="scale-in-center" alt="Sukkersjekk" />
+        </a>
+        <a id="bigwwwave" href="https://bigwwwave.xcode.no/" target="_blank" rel="noopener">
+          <img src="img/mac-bigwwwave.png" height="336px" width="444px" class="scale-in-center" alt="Bigwwwave" />
+          <div>Web agency</div>
+        </a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p id="copyright">&copy; <span id="current-year"></span> xCode</p>
+  </footer>
+</body>
+<script>
+  document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
+
+</html>
