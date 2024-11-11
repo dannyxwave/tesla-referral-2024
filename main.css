@@ -47,7 +47,7 @@ body {
 
 main {
   min-height: 100%;
-  background-color: #131415;
+  /*background-color: #131415;*/
   border-radius: 58px;
 }
 
@@ -69,188 +69,71 @@ main {
   justify-content: center;
 }
 
+.content {
+  max-width: 800px;
+  margin-top: -200px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.tds-icon {
+  width: 100px;
+  height: auto 0;
+}
+
+.cybertruckContainer {
+  display: flex;
+  justify-content: end;
+}
+
+#cybertruck {
+  width: 60vw;
+  height: auto;
+}
+
 h1 {
   font-size: 6rem;
   text-transform: uppercase;
   font-weight: 900;
   margin: 0;
   padding: 0;
-}
-
-h2 {
-  font-size: 1rem;
-  font-weight: 100;
-  color: #ccc;
-  margin-bottom: 10vh;
-}
-
-.linksContainer {
-  min-height: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-a {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #ccc;
-  text-decoration: none;
-  font-weight: bold;
-  height: 185px;
-  width: 295px;
-  border: 1px solid #000;
-  border-radius: 35px;
-  background-color: #fff;
-  position: relative;
-  overflow: hidden;
-}
-
-a img {
-  transition: 150ms;
-  height: 100px;
-  width: auto;
-}
-
-a div {
-  transition: 150ms;
-}
-
-a:hover img {
-  transform: scale(1.1);
-}
-
-a:hover div {
-  transform: translateY(-10%);
-}
-
-/***************
-Car loan
-***************/
-#car-loan {
-  color: #26B0ED;
-  flex-direction: row;
   line-height: 1;
 }
-#car-loan img {
-  padding-right: 20px;
-}
-/***************
-Browser info
-***************/
-#browser-info {
-  flex-direction: row;
-}
-#browser-info img {
-  height: 250px;
-  width: auto;
-  margin-bottom: -50px;
-  margin-left: -20px;
-  padding-right: 5px;
-}
-#browser-info div {
-  margin-left: -50px;
-}
-#browser-info p {
-  margin-bottom: -10px;
-  color: #24AD76;
-}
-#browser-info ul {
-  font-size: 0.8rem;
-  margin-left: -25px;
+
+p {
   font-weight: 100;
-  color: #131415;
-}
-
-/***************
-Url shortener
-***************/
-#url-shortener {
-  color: #D75293;
-}
-
-/***************
-Map converter
-***************/
-#map-converter {
-  color: #DA5B5B;
-  flex-direction: row;
-}
-#map-converter img {
-  margin-bottom: -40px;
-  margin-left: -20px;
-}
-#map-converter div {
   font-size: 1rem;
-  margin-top: -20px;
-  margin-left: -40px;
-  text-align: left;
+  max-width: 500px;
+  margin-bottom: 50px;
 }
 
 /***************
-Go | Upload
+Button
 ***************/
-#go-upload {
-  color: #DCA527;
-  flex-direction: row;
+#referral-btn {
+  margin-top: 20px;
+  background-color: transparent;
+  border-radius: 35px;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-weight: thin;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
-#go-upload img {
-  height: 140px;
-  width: auto;
-}
-#go-upload span {
-  margin-top: -60px;
-  margin-right: -48px;
+#referral-btn:hover {
+  background-color: #fff;
+  color: #000;
+  transform: scale(1.05);
 }
 
 /***************
-AvoDo | Todo
+Footer
 ***************/
-#avo-do {
-  color: #4957E2;
-}
-/*
-/***************
-Bigwwwave
-***************/
-#bigwwwave {
-  color: #CE2E3C;
-}
-#bigwwwave img {
-  height: 130px;
-  width: auto;
-}
-
-/***************
-Sukkersjekk
-***************/
-#sukkersjekk {
-  flex-direction: row;
-}
-#sukkersjekk img {
-  height: 170px;
-  width: auto;
-  margin-bottom: -30px;
-  margin-right: -30px;
-}
-#sukkersjekk div {
-  margin-bottom: -70px;
-  margin-right: -20px;
-}
-#sukkersjekk p {
-  color: #36D2C1;
-  line-height: 0.6;
-  margin-bottom: -10px;
-}
-#sukkersjekk span {
-  color: #1F1F1F;
-  font-size: 0.85rem;
-  font-weight: 100;
-}
-
 footer {
   margin-top: -30px;
   width: 100%;

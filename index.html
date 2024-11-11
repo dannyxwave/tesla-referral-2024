@@ -14,70 +14,67 @@
 </head>
 
 <body>
-  <main>
-    <div class="container">
-      <div>
-        <h1>xCode</h1>
-        <h2>Projects by <span>Dan Isak Weisser</span></h2>
-      </div>
-      <div class="linksContainer">
-        <a id="car-loan" href="https://bil.xcode.no/" target="_blank" rel="noopener">
-          <img src="img/car-loan.png" height="223px" width="200px" class="scale-in-center" alt="Car Loan Calculator" />
-          <div>
-            Car<br />Loan<br />Calculator
-          </div>
-        </a>
-        <a id="browser-info" href="https://ip.xcode.no/" target="_blank" rel="noopener">
-          <img src="img/info.png" height="410" width="364px" class="scale-in-center" alt="Browser Info" />
-          <div>
-            <p>Check</p>
-            <ul>
-              <li>OS</li>
-              <li>IP-address</li>
-              <li>Screen size</li>
-              <li>Country origin</li>
-              <li>Browser version</li>
-            </span>
-          </div>
-        </a>
-        <a id="url-shortener" href="https://url.xcode.no/" target="_blank" rel="noopener">
-          <img src="img/url.png" height="215px" width="290px" class="scale-in-center"
-            alt="Url Shortener" />
-          <div>
-            Shorten URL's
-          </div>
-        </a>
-        <a id="map-converter" href="https://maps.xcode.no/" target="_blank" rel="noopener">
-          <img src="img/map.png" height="192px" width="371px" class="scale-in-center" alt="Apple to Google Maps" />
-          <div>
-            <span>Open Apple<br />Maps link<br />in Google<br />Maps</span>
-          </div>
-        </a>
-        <a id="go-upload" href="https://go.xcode.no/" target="_blank" rel="noopener">
-          <div><span>Upload<br/>files</span></div>
-          <img src="img/upload.png" height="241px" width="288px" class="scale-in-center" alt="Go | Upload" />
-        </a>
-        <a id="avo-do" href="http://todo.xcode.no/" target="_blank" rel="noopener">
-          <img src="img/todo.png" height="193px" width="212px" class="scale-in-center" alt="AvoDo | Todo" />
-          <div>TODO APP</div>
-        </a>
-        <a id="sukkersjekk" href="https://sukkersjekk.xcode.no/" target="_blank" rel="noopener">
-          <div><p>Sukkersjekk</p><span>Calculate sugar cubes in food</span></div>
-          <img src="img/hand.png" height="286px" width="347px" class="scale-in-center" alt="Sukkersjekk" />
-        </a>
-        <a id="bigwwwave" href="https://bigwwwave.xcode.no/" target="_blank" rel="noopener">
-          <img src="img/mac-bigwwwave.png" height="336px" width="444px" class="scale-in-center" alt="Bigwwwave" />
-          <div>Web agency</div>
-        </a>
-      </div>
+  <header>
+    <svg class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon" viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7M308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7"></path></svg>
+  </header>
+  <main class="header finisher-header">
+    <div class="cybertruckContainer">
+      <img id="cybertruck" src="img/cybertruck.png" alt="Tesla referral code">
+    </div>
+    <div class="content">
+      <h1>Tesla<br/>Referral Code</h1>
+      <p>
+        Use this referral code to receive a discount on Tesla vehicles, charging mileage, or points to use in the official Tesla store.
+      </p>
+      <a id="referral-btn" href="https://www.tesla.com/referral/danisak989381" target="_blank" rel="noopener noreferrer">Go to referral page</a>
     </div>
   </main>
   <footer>
     <p id="copyright">&copy; <span id="current-year"></span> xCode</p>
   </footer>
 </body>
+<script src="finisher-header.es5.min.js" type="text/javascript"></script>
 <script>
   document.getElementById('current-year').textContent = new Date().getFullYear();
 </script>
+<script type="text/javascript">
+  new FinisherHeader({
+    "count": 10,
+    "size": {
+      "min": 1300,
+      "max": 1500,
+      "pulse": 0
+    },
+    "speed": {
+      "x": {
+        "min": 0.1,
+        "max": 0.6
+      },
+      "y": {
+        "min": 0.1,
+        "max": 0.6
+      }
+    },
+    "colors": {
+      "background": "#252525",
+      "particles": [
+        "#9f9f9f",
+        "#000000",
+        "#6322e5",
+        "#000000",
+        "#35e8f7"
+      ]
+    },
+    "blending": "overlay",
+    "opacity": {
+      "center": 0.5,
+      "edge": 0.05
+    },
+    "skew": -2,
+    "shapes": [
+      "c"
+    ]
+  });
+  </script>
 
 </html>
