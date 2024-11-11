@@ -181,7 +181,6 @@ Button
 Footer
 ***************/
 footer {
-  /*margin-top: -40px;*/
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -194,6 +193,7 @@ footer {
   font-weight: 100;
   text-align: center;
   color: #fff;
+  margin-bottom: 20px;
 }
 
 /***************
