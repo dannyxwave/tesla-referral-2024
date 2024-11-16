@@ -8,4 +8,4 @@
 
 ## Deploy
 1. Push to master branch
-2. Release automatically happens in Cloudflare pages – mirroring the github page.
+2. Release automatically happens in Cloudflare pages (NOT github pages) – mirroring the github branch.
