@@ -39,7 +39,7 @@ const locales = {
     "site-title": "Tesla rabattkode | xCode",
     "header": {
       "title": "Tesla<br/>Rabattlenke",
-      "description": "Bruk denne rabattlenken for å få en rabatt på Tesla-biler, lading eller poeng for å bruke i den offisielle Tesla-butikken.",
+      "description": "Bruk denne rabattlenken for å få rabatt på kjøretøy, lading eller poeng for å bruke i den offisielle Tesla-butikken.",
       "button": "Gå til tesla.com",
     },
     //"variables": "Aktuelle datoer: {date}<br>Unix-tidsstempel: {time}<br>Statisk tekst: {static}",
